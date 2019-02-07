@@ -1,0 +1,2 @@
+Date/Time,InteriorLights:Electricity [J](RunPeriod),DistrictHeating:Facility [J](RunPeriod),DistrictCooling:Facility [J](RunPeriod) 
+simdays=365,978928941.6469693,10270899964.735009,2896728858.285132 

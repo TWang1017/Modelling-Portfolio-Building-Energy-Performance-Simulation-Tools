@@ -1,0 +1,17 @@
+Program Version,EnergyPlus, Version 8.8.0-7c3bbe4830, YMD=2018.12.23 16:45
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,6,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,3,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+41,11,InteriorLights:Electricity [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+175,11,DistrictHeating:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+206,11,DistrictCooling:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+End of Data Dictionary
+1,ANNUAL,  39.76,-104.86,  -7.00,1611.00
+5,365
+41,978928941.6469693,2700.0, 1, 1, 9,30,162000.0, 1, 2,17,45
+175,10270899964.735009,0.0, 1, 1,11,45,2974605.2731989824, 1, 4, 7,60
+206,2896728858.285132,0.0, 1, 1, 1,15,1825323.4088461302, 9, 2,14,30
+End of Data
+ Number of Records Written=           3

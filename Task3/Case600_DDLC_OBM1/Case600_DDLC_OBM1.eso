@@ -1,0 +1,27 @@
+Program Version,EnergyPlus, Version 8.8.0-7c3bbe4830, YMD=2018.12.23 13:09
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,6,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,3,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+67,11,ZONE 1,Zone Mean Air Temperature [C] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+233,11,ZONE 1 IDEAL LOADS AIR SYSTEM,Zone Ideal Loads Zone Total Heating Energy [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+234,11,ZONE 1 IDEAL LOADS AIR SYSTEM,Zone Ideal Loads Zone Total Cooling Energy [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+235,11,ZONE 1 IDEAL LOADS AIR SYSTEM,Zone Ideal Loads Zone Sensible Heating Rate [W] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+236,11,ZONE 1 IDEAL LOADS AIR SYSTEM,Zone Ideal Loads Zone Sensible Cooling Rate [W] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+11,11,Electricity:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+176,11,DistrictHeating:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+207,11,DistrictCooling:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+End of Data Dictionary
+1,ANNUAL,  39.76,-104.86,  -7.00,1611.00
+5,365
+67,22.916872365916765,19.99999999999969, 1,21, 7,15,27.000000000000399, 2,28,14,30
+233,9529817632.397072,0.0, 1, 1,11, 7,3233915.366836363, 1, 4, 7,60
+234,4131033111.496354,0.0, 1, 1, 1,15,2845736.5668900904, 1,25,13,45
+235,302.1885347553339,0.0, 1, 1,11, 7,3593.2392964848477, 1, 4, 7,60
+236,129.8608780613068,0.0, 1, 1, 1,15,3161.9295187667667, 1,25,13,45
+11,980528842.0295839,2700.0, 1, 1, 9,15,162000.0, 1, 2,17,45
+176,9529817632.36879,0.0, 1, 1,11,15,3233915.3668362319, 1, 4, 7,60
+207,4131033111.468102,0.0, 1, 1, 1,15,2845736.5668899577, 1,25,13,45
+End of Data
+ Number of Records Written=           8
