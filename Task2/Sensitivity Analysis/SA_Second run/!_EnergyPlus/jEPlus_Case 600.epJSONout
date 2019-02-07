@@ -1,0 +1,973 @@
+{
+    "Building": {
+        "Case 600": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 8,
+            "idf_order": 59,
+            "loads_convergence_tolerance_value": 0.039999999,
+            "maximum_number_of_warmup_days": 25,
+            "minimum_number_of_warmup_days": 6,
+            "solar_distribution": "MinimalShadowing",
+            "temperature_convergence_tolerance_value": 0.0040000002,
+            "terrain": "Country"
+        }
+    },
+    "BuildingSurface:Detailed": {
+        "East Wall": {
+            "construction_name": "Exterior Wall",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 23,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 0
+                }
+            ],
+            "view_factor_to_ground": "Autocalculate",
+            "wind_exposure": "WindExposed",
+            "zone_name": "Zone 1"
+        },
+        "Floor": {
+            "construction_name": "Floor",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 27,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition": "Ground",
+            "sun_exposure": "NoSun",
+            "surface_type": "Floor",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                }
+            ],
+            "view_factor_to_ground": "Autocalculate",
+            "wind_exposure": "NoWind",
+            "zone_name": "Zone 1"
+        },
+        "North Wall": {
+            "construction_name": "Exterior Wall",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 24,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 0
+                }
+            ],
+            "view_factor_to_ground": "Autocalculate",
+            "wind_exposure": "WindExposed",
+            "zone_name": "Zone 1"
+        },
+        "Roof": {
+            "construction_name": "Roof",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 26,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Roof",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                }
+            ],
+            "view_factor_to_ground": "Autocalculate",
+            "wind_exposure": "WindExposed",
+            "zone_name": "Zone 1"
+        },
+        "South Wall": {
+            "construction_name": "Exterior Wall",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 22,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                }
+            ],
+            "view_factor_to_ground": "Autocalculate",
+            "wind_exposure": "WindExposed",
+            "zone_name": "Zone 1"
+        },
+        "West Wall": {
+            "construction_name": "Exterior Wall",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 25,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                }
+            ],
+            "view_factor_to_ground": "Autocalculate",
+            "wind_exposure": "WindExposed",
+            "zone_name": "Zone 1"
+        }
+    },
+    "Construction": {
+        "Double Pane Window": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 16,
+            "layer_2": "Air Space Resistance",
+            "layer_3": "Glass Type 1",
+            "outside_layer": "Glass Type 1"
+        },
+        "Exterior Wall": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 17,
+            "layer_2": "Foam Insulation",
+            "layer_3": "Concrete Block",
+            "outside_layer": "Wood sliding ExteriorWall"
+        },
+        "Floor": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 18,
+            "layer_2": "Timber flooring",
+            "outside_layer": "Floor insulation"
+        },
+        "Roof": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 19,
+            "layer_2": "Fibreglass quilt Roof",
+            "layer_3": "Plasterboard Roof",
+            "outside_layer": "Wood sliding Roof"
+        }
+    },
+    "GlobalGeometryRules": {
+        "GlobalGeometryRules 1": {
+            "coordinate_system": "Relative",
+            "daylighting_reference_point_coordinate_system": "Relative",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 20,
+            "rectangular_surface_coordinate_system": "Relative",
+            "starting_vertex_position": "LowerLeftCorner",
+            "vertex_entry_direction": "Clockwise"
+        }
+    },
+    "HeatBalanceAlgorithm": {
+        "HeatBalanceAlgorithm 1": {
+            "algorithm": "ConductionTransferFunction",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 51,
+            "maximum_surface_convection_heat_transfer_coefficient_value": 1000,
+            "minimum_surface_convection_heat_transfer_coefficient_value": 0.1,
+            "surface_temperature_upper_limit": 200
+        }
+    },
+    "Material": {
+        "Concrete Block": {
+            "conductivity": 0.51,
+            "density": 1400,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 4,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.7,
+            "specific_heat": 1000,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1,
+            "visible_absorptance": 0.7
+        },
+        "Fibreglass quilt ExteriorWall": {
+            "conductivity": 0.04,
+            "density": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 41,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.066,
+            "visible_absorptance": 0.6
+        },
+        "Fibreglass quilt Roof": {
+            "conductivity": 0.04,
+            "density": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 46,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1118,
+            "visible_absorptance": 0.6
+        },
+        "Foam Insulation": {
+            "conductivity": 0.04,
+            "density": 10,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 5,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.7,
+            "specific_heat": 1400,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.0615,
+            "visible_absorptance": 0.7
+        },
+        "Plasterboard ExteriorWall": {
+            "conductivity": 0.16,
+            "density": 950,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 40,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.012,
+            "visible_absorptance": 0.6
+        },
+        "Plasterboard Roof": {
+            "conductivity": 0.16,
+            "density": 950,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 45,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.01,
+            "visible_absorptance": 0.6
+        },
+        "Timber flooring": {
+            "conductivity": 0.14,
+            "density": 650,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 43,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 1200,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.025,
+            "visible_absorptance": 0.6
+        },
+        "Wood sliding ExteriorWall": {
+            "conductivity": 0.14,
+            "density": 530,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 42,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 900,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.009,
+            "visible_absorptance": 0.6
+        },
+        "Wood sliding Roof": {
+            "conductivity": 0.14,
+            "density": 530,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 47,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 900,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.019,
+            "visible_absorptance": 0.6
+        }
+    },
+    "Material:NoMass": {
+        "Floor insulation": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 44,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "thermal_absorptance": 0.9,
+            "thermal_resistance": 25.075,
+            "visible_absorptance": 0.6
+        }
+    },
+    "OtherEquipment": {
+        "Internal Gains": {
+            "design_level": 200,
+            "design_level_calculation_method": "EquipmentLevel",
+            "end_use_subcategory": "General",
+            "fraction_latent": 0,
+            "fraction_lost": 0,
+            "fraction_radiant": 0.6,
+            "fuel_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 34,
+            "schedule_name": "Alwayson internal gains",
+            "zone_or_zonelist_name": "Zone 1"
+        }
+    },
+    "Output:Constructions": {
+        "Output:Constructions 1": {
+            "details_type_1": "Constructions",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 37
+        }
+    },
+    "Output:Meter": {
+        "Output:Meter 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 2,
+            "key_name": "DistrictHeating:Facility",
+            "reporting_frequency": "Annual"
+        },
+        "Output:Meter 2": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 3,
+            "key_name": "DistrictCooling:Facility",
+            "reporting_frequency": "Annual"
+        }
+    },
+    "Output:Surfaces:Drawing": {
+        "Output:Surfaces:Drawing 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 36,
+            "report_specifications_1": "Triangulate3DFace",
+            "report_type": "DXF"
+        }
+    },
+    "Output:Table:SummaryReports": {
+        "Output:Table:SummaryReports 1": {
+            "idf_max_extensible_fields": 1,
+            "idf_max_fields": 1,
+            "idf_order": 32,
+            "reports": [
+                {
+                    "report_name": "AllSummary"
+                }
+            ]
+        }
+    },
+    "Output:Variable": {
+        "Output:Variable 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 1,
+            "key_value": "*",
+            "reporting_frequency": "Annual",
+            "variable_name": "Zone Mean Air Temperature"
+        },
+        "Output:Variable 2": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 10,
+            "key_value": "*",
+            "reporting_frequency": "Annual",
+            "variable_name": "Zone Ideal Loads Zone Sensible Heating Rate"
+        },
+        "Output:Variable 3": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 11,
+            "key_value": "*",
+            "reporting_frequency": "Annual",
+            "variable_name": "Zone Ideal Loads Zone Sensible Cooling Rate"
+        }
+    },
+    "Output:VariableDictionary": {
+        "Output:VariableDictionary 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 31,
+            "key_field": "IDF"
+        }
+    },
+    "OutputControl:Table:Style": {
+        "OutputControl:Table:Style 1": {
+            "column_separator": "HTML",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 33,
+            "unit_conversion": "JtoKWH"
+        }
+    },
+    "RunPeriod": {
+        "Annual": {
+            "apply_weekend_holiday_rule": "Yes",
+            "begin_day_of_month": 1,
+            "begin_month": 1,
+            "day_of_week_for_start_day": "UseWeatherFile",
+            "end_day_of_month": 31,
+            "end_month": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 53,
+            "increment_day_of_week_on_repeat": "Yes",
+            "number_of_times_runperiod_to_be_repeated": 1,
+            "use_weather_file_daylight_saving_period": "Yes",
+            "use_weather_file_holidays_and_special_days": "No",
+            "use_weather_file_rain_indicators": "Yes",
+            "use_weather_file_snow_indicators": "Yes"
+        }
+    },
+    "Schedule:Compact": {
+        "Alwayson infiltration": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 1
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 39,
+            "schedule_type_limits_name": "Equipment on/off"
+        },
+        "Alwayson internal gains": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 1
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 35,
+            "schedule_type_limits_name": "Equipment on/off"
+        },
+        "HVACTemplate-Always 4": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 4
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 62,
+            "schedule_type_limits_name": "HVACTemplate Any Number"
+        },
+        "cooling setpoint": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 27
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 56,
+            "schedule_type_limits_name": "Temperature"
+        },
+        "heating setpoint": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 20
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 55,
+            "schedule_type_limits_name": "Temperature"
+        }
+    },
+    "ScheduleTypeLimits": {
+        "Equipment on/off": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 38,
+            "lower_limit_value": 0,
+            "numeric_type": "Continuous",
+            "unit_type": "Dimensionless",
+            "upper_limit_value": 1
+        },
+        "HVACTemplate Any Number": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 61
+        },
+        "Temperature": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 54,
+            "lower_limit_value": -100,
+            "numeric_type": "Continuous",
+            "unit_type": "Dimensionless",
+            "upper_limit_value": 100
+        }
+    },
+    "Shading:Overhang": {
+        "OverhangL": {
+            "depth": 1.5,
+            "height_above_window_or_door": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 6,
+            "left_extension_from_window_door_width": 0.1,
+            "right_extension_from_window_door_width": 0.1,
+            "tilt_angle_from_window_door": 90,
+            "window_or_door_name": "South Window Left"
+        },
+        "OverhangR": {
+            "depth": 1.5,
+            "height_above_window_or_door": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 7,
+            "left_extension_from_window_door_width": 0.1,
+            "right_extension_from_window_door_width": 0.1,
+            "tilt_angle_from_window_door": 90,
+            "window_or_door_name": "Souwth Window Right"
+        }
+    },
+    "ShadingProperty:Reflectance": {
+        "ShadingProperty:Reflectance 1": {
+            "diffuse_solar_reflectance_of_unglazed_part_of_shading_surface": 0.2,
+            "diffuse_visible_reflectance_of_unglazed_part_of_shading_surface": 0.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 8,
+            "shading_surface_name": "OverhangL"
+        },
+        "ShadingProperty:Reflectance 2": {
+            "diffuse_solar_reflectance_of_unglazed_part_of_shading_surface": 0.2,
+            "diffuse_visible_reflectance_of_unglazed_part_of_shading_surface": 0.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 9,
+            "shading_surface_name": "OverhangR"
+        }
+    },
+    "ShadowCalculation": {
+        "ShadowCalculation 1": {
+            "calculation_frequency": 20,
+            "calculation_method": "AverageOverDaysInFrequency",
+            "external_shading_calculation_method": "InternalCalculation",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 48,
+            "maximum_figures_in_shadow_overlap_calculations": 15000,
+            "output_external_shading_calculation_results": "No",
+            "polygon_clipping_algorithm": "SutherlandHodgman",
+            "sky_diffuse_modeling_algorithm": "SimpleSkyDiffuseModeling"
+        }
+    },
+    "SimulationControl": {
+        "SimulationControl 1": {
+            "do_hvac_sizing_simulation_for_sizing_periods": "No",
+            "do_plant_sizing_calculation": "No",
+            "do_system_sizing_calculation": "No",
+            "do_zone_sizing_calculation": "No",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 58,
+            "maximum_number_of_hvac_sizing_simulation_passes": 1,
+            "run_simulation_for_sizing_periods": "No",
+            "run_simulation_for_weather_file_run_periods": "Yes"
+        }
+    },
+    "Site:GroundReflectance": {
+        "Site:GroundReflectance 1": {
+            "april_ground_reflectance": 0.2,
+            "august_ground_reflectance": 0.2,
+            "december_ground_reflectance": 0.2,
+            "february_ground_reflectance": 0.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 13,
+            "january_ground_reflectance": 0.2,
+            "july_ground_reflectance": 0.2,
+            "june_ground_reflectance": 0.2,
+            "march_ground_reflectance": 0.2,
+            "may_ground_reflectance": 0.2,
+            "november_ground_reflectance": 0.2,
+            "october_ground_reflectance": 0.2,
+            "september_ground_reflectance": 0.2
+        }
+    },
+    "Site:GroundTemperature:BuildingSurface": {
+        "Site:GroundTemperature:BuildingSurface 1": {
+            "april_ground_temperature": 10,
+            "august_ground_temperature": 10,
+            "december_ground_temperature": 10,
+            "february_ground_temperature": 10,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 67,
+            "january_ground_temperature": 10,
+            "july_ground_temperature": 10,
+            "june_ground_temperature": 10,
+            "march_ground_temperature": 10,
+            "may_ground_temperature": 10,
+            "november_ground_temperature": 10,
+            "october_ground_temperature": 10,
+            "september_ground_temperature": 10
+        }
+    },
+    "Site:GroundTemperature:Undisturbed:FiniteDifference": {
+        "dry-packed soil": {
+            "evapotranspiration_ground_cover_parameter": 0.4,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 28,
+            "soil_density": 1500,
+            "soil_moisture_content_volume_fraction": 30,
+            "soil_moisture_content_volume_fraction_at_saturation": 50,
+            "soil_specific_heat": 800,
+            "soil_thermal_conductivity": 1.3
+        }
+    },
+    "SurfaceConvectionAlgorithm:Inside": {
+        "SurfaceConvectionAlgorithm:Inside 1": {
+            "algorithm": "TARP",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 49
+        }
+    },
+    "SurfaceConvectionAlgorithm:Outside": {
+        "SurfaceConvectionAlgorithm:Outside 1": {
+            "algorithm": "DOE-2",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 50
+        }
+    },
+    "ThermostatSetpoint:DualSetpoint": {
+        "Thermostat Dual SP Control": {
+            "cooling_setpoint_temperature_schedule_name": "cooling setpoint",
+            "heating_setpoint_temperature_schedule_name": "heating setpoint",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 60
+        }
+    },
+    "Timestep": {
+        "Timestep 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 52,
+            "number_of_timesteps_per_hour": 4
+        }
+    },
+    "Version": {
+        "Version 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 57,
+            "version_identifier": "8.9"
+        }
+    },
+    "Window": {
+        "South Window Left": {
+            "building_surface_name": "South Wall",
+            "construction_name": "Double Pane Window",
+            "height": 2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 29,
+            "length": 3,
+            "multiplier": 1,
+            "starting_x_coordinate": 0.5,
+            "starting_z_coordinate": 0.2
+        },
+        "Souwth Window Right": {
+            "building_surface_name": "South Wall",
+            "construction_name": "Double Pane Window",
+            "height": 2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 30,
+            "length": 3,
+            "multiplier": 1,
+            "starting_x_coordinate": 4.5,
+            "starting_z_coordinate": 0.2
+        }
+    },
+    "WindowMaterial:Gas": {
+        "Air Space Resistance": {
+            "gas_type": "Air",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 15,
+            "thickness": 0.013
+        }
+    },
+    "WindowMaterial:Glazing": {
+        "Glass Type 1": {
+            "back_side_infrared_hemispherical_emissivity": 0.84,
+            "back_side_solar_reflectance_at_normal_incidence": 0.07846,
+            "back_side_visible_reflectance_at_normal_incidence": 0.082,
+            "conductivity": 1.06,
+            "dirt_correction_factor_for_solar_and_visible_transmittance": 1,
+            "front_side_infrared_hemispherical_emissivity": 0.84,
+            "front_side_solar_reflectance_at_normal_incidence": 0.07846,
+            "front_side_visible_reflectance_at_normal_incidence": 0.082,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 18,
+            "idf_order": 14,
+            "infrared_transmittance_at_normal_incidence": 0,
+            "optical_data_type": "SpectralAverage",
+            "poisson_s_ratio": 0.22,
+            "solar_diffusing": "No",
+            "solar_transmittance_at_normal_incidence": 0.86156,
+            "thickness": 0.003175,
+            "visible_transmittance_at_normal_incidence": 0.91325,
+            "young_s_modulus": 72000000000
+        }
+    },
+    "Zone": {
+        "Zone 1": {
+            "ceiling_height": "Autocalculate",
+            "floor_area": "Autocalculate",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 21,
+            "multiplier": 1,
+            "part_of_total_floor_area": "Yes",
+            "type": 1,
+            "volume": "Autocalculate",
+            "x_origin": 0,
+            "y_origin": 0,
+            "z_origin": 0
+        }
+    },
+    "ZoneControl:Thermostat": {
+        "Zone 1 Thermostat": {
+            "control_1_name": "Thermostat Dual SP Control",
+            "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
+            "control_type_schedule_name": "HVACTemplate-Always 4",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 63,
+            "zone_or_zonelist_name": "Zone 1"
+        }
+    },
+    "ZoneHVAC:EquipmentConnections": {
+        "ZoneHVAC:EquipmentConnections 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 64,
+            "zone_air_inlet_node_or_nodelist_name": "Zone 1 Ideal Loads Supply Inlet",
+            "zone_air_node_name": "Zone 1 Zone Air Node",
+            "zone_conditioning_equipment_list_name": "Zone 1 Equipment",
+            "zone_name": "Zone 1",
+            "zone_return_air_node_or_nodelist_name": "Zone 1 Return Outlet"
+        }
+    },
+    "ZoneHVAC:EquipmentList": {
+        "Zone 1 Equipment": {
+            "equipment": [
+                {
+                    "zone_equipment_cooling_sequence": 1,
+                    "zone_equipment_heating_or_no_load_sequence": 1,
+                    "zone_equipment_name": "Zone 1 Ideal Loads Air System",
+                    "zone_equipment_object_type": "ZoneHVAC:IdealLoadsAirSystem"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 65,
+            "load_distribution_scheme": "SequentialLoad"
+        }
+    },
+    "ZoneHVAC:IdealLoadsAirSystem": {
+        "Zone 1 Ideal Loads Air System": {
+            "cooling_limit": "NoLimit",
+            "cooling_sensible_heat_ratio": 0.7,
+            "dehumidification_control_type": "ConstantSensibleHeatRatio",
+            "demand_controlled_ventilation_type": "None",
+            "heat_recovery_type": "None",
+            "heating_limit": "NoLimit",
+            "humidification_control_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 27,
+            "idf_order": 66,
+            "latent_heat_recovery_effectiveness": 0.65,
+            "maximum_heating_supply_air_humidity_ratio": 0.0156,
+            "maximum_heating_supply_air_temperature": 50,
+            "minimum_cooling_supply_air_humidity_ratio": 0.0077,
+            "minimum_cooling_supply_air_temperature": 13,
+            "outdoor_air_economizer_type": "NoEconomizer",
+            "sensible_heat_recovery_effectiveness": 0.7,
+            "zone_supply_air_node_name": "Zone 1 Ideal Loads Supply Inlet"
+        }
+    },
+    "ZoneInfiltration:DesignFlowRate": {
+        "Infiltration": {
+            "constant_term_coefficient": 1,
+            "design_flow_rate": 0.018,
+            "design_flow_rate_calculation_method": "Flow/Zone",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 12,
+            "schedule_name": "Alwayson infiltration",
+            "zone_or_zonelist_name": "Zone 1"
+        }
+    }
+}

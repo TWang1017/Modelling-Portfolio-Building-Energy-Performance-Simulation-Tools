@@ -1,0 +1,13 @@
+Program Version,EPDraw, Version 3.0
+   ************* Energy+.idd used=C:\EnergyPlusV8-8-0\Energy+.idd
+   ** Severe  ** Invalid Number in Numeric Field#5 (Depth), value=@@OD@@, in SHADING:OVERHANG=OVERHANGL
+   ** Severe  ** Invalid Number in Numeric Field#5 (Depth), value=@@OD@@, in SHADING:OVERHANG=OVERHANGR
+   ** Severe  ** Invalid Number in Numeric Field#1 (Thickness), value=@@INS@@, in MATERIAL=FOAM INSULATION
+   ** Severe  ** Invalid Number in Numeric Field#1 (North Axis), value=@@ORI@@, in BUILDING=CASE 600
+   ** Severe  ** GetBuildingData: A BUILDING Object must be entered
+   ** Severe  ** Shading:Overhang Name, cannot be blank
+   **   ~~~   ** ...each surface name must not duplicate other surface names (of any type)
+   ** Severe  ** Shading:Overhang Name, cannot be blank
+   **   ~~~   ** ...each surface name must not duplicate other surface names (of any type)
+   ** Warning ** DXFOut: Using triangulate, action=TRIANGULATE 3DFACE
+   ************* EPDraw Completed Successfully-- 1 Warning; 7 Severe Errors

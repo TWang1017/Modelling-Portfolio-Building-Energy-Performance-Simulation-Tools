@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="jeplus.JEPlusProject" id="JEPlusProject0">
+  <void property="DCKDir">
+   <string>../../jEPlus_v1.7.2/</string>
+  </void>
+  <void property="IDFDir">
+   <string>EnergyPlus/</string>
+  </void>
+  <void property="IDFTemplate">
+   <string>jEPlus_Case 600.idf</string>
+  </void>
+  <void property="RVIFile">
+   <string>jEPlus_Case 600.RVI</string>
+  </void>
+  <void property="baseDir">
+   <string>C:\Users\ucbqtw1\Desktop\Modelling\Task2Files\jEPlus\</string>
+  </void>
+  <void property="execSettings">
+   <void property="parentDir">
+    <string>C:\Users\ucbqtw1\Desktop\Modelling\Task2Files\jEPlus\jEPlus_Result\</string>
+   </void>
+  </void>
+  <void id="DefaultMutableTreeNode0" property="paramTree">
+   <void id="ParameterItem0" property="userObject">
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Name</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>Terrain</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Type</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Description</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>Site&apos;s terrain</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>SearchString</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>@@TER@@</string>
+     </void>
+    </void>
+    <void property="valuesString">
+     <string>{ Country, Suburbs, City }</string>
+    </void>
+   </void>
+   <void method="add">
+    <object class="javax.swing.tree.DefaultMutableTreeNode">
+     <void property="userObject">
+      <object class="jeplus.data.ParameterItem" id="ParameterItem1">
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>ID</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>P2</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Name</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>Building Orientation</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Description</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>Orientions</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>SearchString</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>@@ORI@@</string>
+        </void>
+       </void>
+       <void property="project">
+        <object idref="JEPlusProject0"/>
+       </void>
+       <void property="valuesString">
+        <string>[0:90:270]</string>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="javax.swing.tree.DefaultMutableTreeNode">
+       <void property="userObject">
+        <object class="jeplus.data.ParameterItem" id="ParameterItem2">
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>ID</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>P3</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Name</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>Foam insulation</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Type</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <int>1</int>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Description</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>Wall insulation thickness</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>SearchString</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>@@INS@@</string>
+          </void>
+         </void>
+         <void property="project">
+          <object idref="JEPlusProject0"/>
+         </void>
+         <void property="valuesString">
+          <string>[0.025:0.025:0.175]</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="javax.swing.tree.DefaultMutableTreeNode">
+         <void property="userObject">
+          <object class="jeplus.data.ParameterItem" id="ParameterItem3">
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>ID</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>P4</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Name</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>Overhang depth</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Type</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <int>1</int>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Description</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>Overhang depth</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>SearchString</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>@@OD@@</string>
+            </void>
+           </void>
+           <void property="project">
+            <object idref="JEPlusProject0"/>
+           </void>
+           <void property="valuesString">
+            <string>[0.5:0.5:2]</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="parameters">
+   <void method="add">
+    <object idref="ParameterItem1"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem2"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem3"/>
+   </void>
+  </void>
+  <void property="rvx">
+   <object class="jeplus.data.RVX">
+    <void property="RVIs">
+     <array class="jeplus.data.RVX_RVIitem" length="1">
+      <void index="0">
+       <object class="jeplus.data.RVX_RVIitem">
+        <void property="fileName">
+         <string>C:\Users\ucbqtw1\Desktop\Modelling\Task2Files\jEPlus\jEPlus_Case 600.RVI</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void property="weatherDir">
+   <string>../Weather File/</string>
+  </void>
+  <void property="weatherFile">
+   <string>EP-BESTEST.epw</string>
+  </void>
+ </object>
+</java>

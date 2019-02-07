@@ -1,0 +1,49 @@
+Default Truncations:
+0.001	0.999
+
+5 Distributions:
+Uniform
+Orientation
+
+1	1
+0	360	1
+
+Normal
+InsulationThickness
+
+1	0.08	0.02	0.001	0.999
+
+Uniform
+OverhangDepth
+
+1	1
+0.01	2	1
+
+Normal
+VentilationRate
+ach
+1	0.5	0.15	0.001	0.999
+
+Triangular
+WindowThickness
+Triangular
+1	0.002	0.0035	0.005
+
+Correlation information
+0 -1 0 
+0 -1 0 
+0 -1 0 
+0 -1 0 
+0 -1 0 
+Correlation Matrix:
+1	0	0	0	0	
+0	1	0	0	0	
+0	0	1	0	0	
+0	0	0	1	0	
+0	0	0	0	1	
+Stein Information:
+
+0
+0
+0
+2
